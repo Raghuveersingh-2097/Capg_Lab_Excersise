@@ -4,13 +4,12 @@ package Mandatory;
  not
  **/
 public class LabExcersise1Of7 {
-
-	public static boolean checkNumber(int input)
+public static boolean checkNumber(int input)
 	{
-	    // Deal with negative inputs...
+/**Deal with negative inputs...**/
 	    if (input < 0)
 	        input = -input;
-	    int max_digit = 10; // always greater than any digit
+	    int max_digit = 10;      /**always greater than any digit**/ 
 	    int current_digit;
 	    while (input > 0) {
 	        current_digit = input % 10;
@@ -18,20 +17,18 @@ public class LabExcersise1Of7 {
 	            return false;
 	        max_digit = current_digit;
 	        input /= 10;
-	    }
+}
 	    return true;
-	}
-
-	public static void main(String[] args) {
+}
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int input=134468;
 		if(checkNumber(input)==true) {
 			System.out.println("Numbers is Increasing in nature.......");
-		}else
+}
+	else
 		{
 			System.out.println("Number is Randomly placed.......");
-		}
-
-	}
-
+}
+}
 }
