@@ -54,7 +54,7 @@ public static String checkForNumber(String input) {
 	            return output;
 }
 /**
-        *---------------------If string has character all across string-------------------------* 
+        *---------------------If string has same character all across string-------------------------* 
 **/
 public static String checkForSimilarCharacter(String input) {
 	int count=0;
