@@ -2,12 +2,12 @@ package com.cg.exception_lab.domain;
 
 import com.cg.exception_lab.exception.InvalidNameException;
 
-public class ExceptionInfo {
+public class ExceptionInfo {	
 private int age;
 private String name;
 private double salary;
 private String surname;
-
+/*--------------------------------------------------------------Setter and getter method---------------------------------------------------*/
 public String getSurname() {
 	return surname;
 }
